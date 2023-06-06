@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Press+Start+2P&display=swap');
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(img/personaje.png);
+    background-size: contain;
+}
+
+.botoncin{
+    font-family: 'Press Start 2P';
+    font-size: 180px;
+    border: none;
+    outline: none;
+    padding: 10px 8px;
+    color: white;
+    cursor: pointer;
+    background:pink;
+    display:flex;
+    justify-content: center;
+    width: 80%;
+    height: 20vh;
+}
